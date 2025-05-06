@@ -1,10 +1,11 @@
 import React from 'react';
+import { Wrapper } from './styles';
 
 const Main = () => {
   return (
-    <main>
+    <Wrapper>
       <h1>Main Component</h1>
-    </main>
+    </Wrapper>
   );
 };
 
