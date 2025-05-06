@@ -1,4 +1,4 @@
-import StyledComponentsRegistry from '@/lib/library';
+import StyledComponentsRegistry from '@/lib/registry';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 
