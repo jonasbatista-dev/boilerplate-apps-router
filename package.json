@@ -12,7 +12,8 @@
     "test:watch": "jest --watch --maxWorkes=25%",
     "test:ci": "jest --runInBand",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "generate": "npx plop --plopfile generators/plopfile.js"
   },
   "dependencies": {
     "next": "15.3.1",
@@ -58,6 +59,7 @@
     "jest-styled-components": "^7.2.0",
     "lint-staged": "^15.5.1",
     "playwright": "^1.52.0",
+    "plop": "^4.0.1",
     "prettier": "^3.5.3",
     "storybook": "^8.6.12",
     "ts-jest": "^29.3.2",
