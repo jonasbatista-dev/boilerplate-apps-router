@@ -1,4 +1,3 @@
-import React from 'react';
 import './page.module.css';
 import Main from '@/components/main';
 
